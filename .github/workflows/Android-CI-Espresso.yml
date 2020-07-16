@@ -50,7 +50,7 @@ jobs:
           path: artifacts/logcat.log
   Check:
     name: Check
-    runs-on: ubuntu-latest
+    runs-on: macOS-latest # it is with NDK
     steps:
       - uses: actions/checkout@v2.3.1
         with:
